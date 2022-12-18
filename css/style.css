@@ -1,3 +1,15 @@
+@font-face {
+   font-family: 'Roboto';
+   src: url("assets/fonts/Roboto-Regular.ttf");
+   font-weight: 400;
+}
+
+@font-face {
+   font-family: 'Roboto';
+   src: url("assets/fonts/Roboto-Bold.ttf");
+   font-weight: 700;
+ }
+ 
 * {
    box-sizing: border-box;
 }
@@ -105,7 +117,7 @@ ul.hr li {
    align-items: center;
    justify-content: center;
    padding: 20px;
-   text-align: center;
+   gittext-align: center;
 }
 
 code {
