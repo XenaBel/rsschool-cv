@@ -21,25 +21,26 @@ nav {
 aside {
    width: 250px;
    font-size: 50%;
- }
+}
 
 p {
    line-height: 14px;
- }
+}
 
 h1, h2, h6 {
    margin: 0;
    text-align: center;
 }
 
-a {color: #c70877;
- }
+a {
+   color: #c70877;
+}
 
 a.hr {
    font-size: 50%;
    color: #f7ae8c;
    text-decoration: none;
- }
+}
 
 section {
    margin: 5px;
@@ -56,15 +57,16 @@ ul.hr {
    margin: 0; 
    padding: 4px;
    align-items:center; 
-  }
+}
+
 ul.hr li {
    display: inline; 
    margin-right: 5px; 
    padding: 3px; 
    color:#fff;
    text-decoration: none;
-  }
- 
+}
+
 .container {
    max-width: 60%;
    margin: 0 auto;
