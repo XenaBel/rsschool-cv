@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Julia Borisova</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="hero">
+            <img src="img/avatar.jpg" alt="Avatar" width="250" height="250">
+            <div class="container">
+                <h1>Julia Borisova</h1>
+                <h6>Frontend Developer</h6>
+                <nav>
+                    <ul class="hr">
+                        <li><a href="#education" class="hr">Education</a>
+                        <li><a href="#language" class="hr">Language</a>
+                        <li><a href="#skills" class="hr">Skills</a>
+                        <li><a href="#code" class="hr">Code example</a>
+                        <li><a href="#experience" class="hr">Experience</a>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+  
+    <main class="main">
+        <aside>
+            <div class="center">
+                <address>
+                    <ul>
+                        <li>Shkolnaya st. Pervouralsk, Russia</li>
+                        <li><strong>E-mail:</strong> <a href="mailto:ularu7@gmail.com">ularu7@gmail.com</a></li>
+                        <li><strong>Discord:</strong>@Julia Borisova#1122</li>
+                        <li><strong>Telegram:</strong><a href="https://t.me/XenaFeo"> @XenaFeo</a></li>
+                    </ul>
+                </address>
+            </div>
+            <img src="img/pix_1.jpg" alt="Sky" width="250" height="1">
+        </aside>
+        <div>
+            <div class="about">I have some experience in web design. <br> I love code and want to learn JavaScript now.
+            </div>
+            <div class="blocks">
+                <section>
+                    <header>
+                        <div id="education">
+                            <h2>Education</h2>
+                        </div>
+                    </header>
+                    <ul>
+                        <li>The Ural State University of Architecture and Art in Ekaterinburg, Russia
+                            <ul>
+                                <li>Bachelor of Architecture</li>
+                            </ul>
+                        </li>
+                        <li>Course Basics of FrontEnd Development, Innopolis University, Russia
+                            <ul>
+                                <li>Professional Retraining Diploma, Junior frontend developer</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <header>
+                        <div id="language">
+                            <h2>Language</h2>
+                        </div>
+                    </header>
+                    <ul>
+                        <li>Russian - native speaker</li>
+                        <li>English level - B1</li>
+                    </ul>
+                </section>
+                <section>
+                    <header>
+                        <div id="skills">
+                            <h2>Skills</h2>
+                        </div>
+                    </header>
+                    <ul>
+                        <li>HTML5, CSS3</li>
+                        <li>Java Script Basics</li>
+                        <li>Git, GitHub</li>
+                        <li>VS Code</li>
+                        <li>Figma, Photoshop, Corel Draw</li>
+                    </ul>
+                </section>
+                <section>
+                    <header>
+                        <div id="code">
+                            <h2>Code example</h2>
+                        </div>
+                    </header>
+                    <pre>
+                        <code>
+    'use strict'
+    
+    function makeFibonacciFunction() {
+        let prev = 0;
+        let next = 1;
+                            
+        return () => {
+            const result = prev + next;
+            prev = next;
+            next = result;
+            return result;
+        }
+    }
+                            
+    const fibonacci = makeFibonacciFunction();
+                            
+    console.log(fibonacci());
+                        </code>
+                    </pre>
+                </section>
+                <section>
+                    <header>
+                        <div id="experience">
+                            <h2>Experience</h2>
+                        </div>
+                    </header>
+                    <div class="center">
+                        <p>
+                            <a href="https://XenaBel.github.io/rsschool-cv">https://XenaBel.github.io/rsschool-cv</a>
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+           <div class="blocks">
+                <div class="about">
+                    <a href="https://rs.school/js/"><img src="img/Logo.svg" alt="Logo RS School" width="100"></a>
+                </div>
+                <div class="about">
+                    <a href="https://github.com/XenaBel/rsschool-cv">XenaBel/rsschool-cv</a>
+                    <time datetime="2021-12-18">December 18th 2022</time>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
