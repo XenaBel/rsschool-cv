@@ -43,10 +43,10 @@ a.hr {
 }
 
 section {
+   flex-grow: 1;
    margin: 5px;
    font-size: 75%;
    background-color: #eee9e2;
-   flex-grow: 1;
 }
 
 ul, li {
@@ -63,8 +63,8 @@ ul.hr li {
    display: inline; 
    margin-right: 5px; 
    padding: 3px; 
-   color:#fff;
    text-decoration: none;
+   color:#fff;  
 }
 
 .container {
@@ -82,12 +82,12 @@ ul.hr li {
 }
 
 .hero {
-   max-width: 60%;
-   margin: 0 auto;
-   color: white;
    display: flex;
    align-items: center;
    justify-content: center;
+   max-width: 60%;
+   margin: 0 auto;
+   color: white;
    border: 1px solid #fff;
 }
 
@@ -101,10 +101,10 @@ ul.hr li {
 }
 
 .about {
-   padding: 20px;
    display: flex;
    align-items: center;
    justify-content: center;
+   padding: 20px;
    text-align: center;
 }
 
