@@ -1,0 +1,39 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   font: 2rem "Roboto", sans-serif;
+ }
+
+ p {
+   line-height: 24px;
+ }
+
+ a {color: #0f2f78;
+
+ }
+ 
+ .container {
+   max-width: 1170px;
+   margin: 0 auto;
+}
+
+.nav {
+   padding: 3px;
+   margin: 0 auto;
+   background-color: #0f2f78;
+   color: white;
+   display: flex;
+}
+
+.main {
+   padding: 10px;
+   color: #0f2f78;
+   display: flex;
+}
+
+ .footer {
+   padding: 10px 0;
+}
